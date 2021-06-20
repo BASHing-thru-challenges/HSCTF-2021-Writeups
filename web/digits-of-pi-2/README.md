@@ -4,7 +4,7 @@
 This [spreadsheet](https://docs.google.com/spreadsheets/d/1NX9nUMrpaxGqChQ7ROzITDtlxaz5McSsN5BMs-o5k-M/edit) is Secure™
 
 ## Solution:
-In this challenge instead of the sheet being on the same Google Sheet, it is imported using the IMPORTRANGE function. 
+In this challenge instead of the secret sheet being on the same Google Sheet, it is imported using the IMPORTRANGE function. 
 
 ![alt text](formula.png "Formula")
 
