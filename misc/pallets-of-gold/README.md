@@ -22,7 +22,7 @@ Immediately, the 8-bit colormap/palette jumps out. When I extracted this binary 
 
 ![](stegonlineinput.png)
 
-If we click browse colour pallette, the flag appears in the preview. Once we download the image, we can get the flag with a bit of guesswork for the iffy characters. 
+If we click browse colour pallette, the flag appears in the preview. Once we download the image, we can get the flag with a bit of guesswork for the iffy characters. (The image below looks empty, but open it a new tab and you'll see)
 
 ![](flag.png)
 
