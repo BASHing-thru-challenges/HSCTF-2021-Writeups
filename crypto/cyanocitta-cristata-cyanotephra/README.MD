@@ -8,7 +8,7 @@ The Blue Jay (Cyanocitta cristata) is a passerine bird in the family Corvidae, n
 [cyanocitta-cristata-cyanotephra.sage](cyanocitta-cristata-cyanotephra.sage)
 
 ## Solution:
-The .sage file creates a function of x and y to encrypt the flag, and it also gives us 5 inputs and outputs of that function. We can use those outputs to reverse the function and find the coefficients. From there we can use a and b and the reversed function to decrypt the flag. I used z3 but in hindsight you just use linear algebra for a more efficient solution(this would have been helpful for a later challenge!)
+The .sage file creates a function of x and y to encrypt the flag, and it also gives us 5 inputs and outputs of that function. We can use those outputs to reverse the function and find the coefficients. From there we can use a and b and the reversed function to decrypt the flag. I used z3 but in hindsight you could just use linear algebra for a more efficient solution(this would have been helpful for a later challenge!)
 
 **My Script:**
 
