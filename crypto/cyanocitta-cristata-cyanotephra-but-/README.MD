@@ -10,7 +10,7 @@ The Blue Jay (Cyanocitta cristata) is a passerine bird in the family Corvidae, n
 [cyanocitta-cristata-cyanotephra.sage](cyanocitta-cristata-cyanotephra.sage)
 
 ## Solution:
-It's the same encryption as cyanocitta-cristata-cyanotephra but with different inputs, so I reused the same script. 
+It's the same encryption as cyanocitta-cristata-cyanotephra but with a different output.txt, so I reused the same script. 
 
 **My Script:**
 
