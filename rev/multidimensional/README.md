@@ -9,7 +9,7 @@ It's time to break through portals and get multidimensional! Can you cross throu
 This challenge takes our input and does a bunch of manipulation and checks if it equals `hey_since_when_was_time_a_dimension?`. So all we have to do is reverse the functions and apply them to the checked string to get the flag. A lot of it was just copying the function and changing a couple things to make it do the opposite of the orginal file.
 
 **Script:**
-```
+```java
 public class Solve {
 	private static char[][] arr = new char[6][6];
 	public static void main(String[] args) {
