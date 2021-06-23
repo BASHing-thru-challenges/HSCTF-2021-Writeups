@@ -1,4 +1,4 @@
-# extended-fibonacci-sequence-2 (186 solves / 417 points)
+# extended-fibonacci-sequence-2 (186 solves, 417 points)
 ## Description
 fibs r so much fun here's another one
 
