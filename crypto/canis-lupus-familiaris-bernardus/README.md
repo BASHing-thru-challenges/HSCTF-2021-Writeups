@@ -14,7 +14,7 @@ The final stage of AES-CBC is an xor between the final round and the iv. So, we 
 
 **My Script:**
 
-```
+```python3
 from pwn import *
 
 bad_chars = list("JOUX")
