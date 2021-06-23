@@ -10,7 +10,7 @@ Anhinga anhinga
 ### Initial Analysis
 When we connect to the challenge, we are given four options: `1. Key gen alg, 2. Public key, 3. Private key, 4. Decrypt`. Let's look at the algorithm first (slightly abridged).
 
-```
+```python3
 flag = open('flag.txt','rb').read()
 p,q = getPrime(1024),getPrime(1024)
 e = 0x10001
@@ -43,7 +43,7 @@ To even generate an equivalent private key, we need to get the primes from the g
 ### New key
 To wrap this up, we have to create a new key with these values. After some Googling, [this](https://crypto.stackexchange.com/questions/37467/do-equivalent-rsa-keys-exist) holds all the information we need; we don't want to create the same key of course within the normal range, but we can create "infinite" keys outside of it. This is done by adding `k * 𝜆(𝑛)` with d (our original private key), with k being any integer and 𝜆(𝑛) being Carmichael's totient. Thus, we can start off with d + 𝜆(𝑛) or d - 𝜆(𝑛). Now, all we have to do is calculate these values and plug them in; we could write a python script, but it was simple enough that I just used python straight from the terminal.
 
-```
+```python3
 import math
 N = 19316168030873260945275603782898337464542835781997293536834644543904701630686498645945181397403939706801778146895074523733326402797985969171203578567148386811169397210570865189040763019939755850442603591649636451732029816846773656995333769156014044122943361823169203440561463998364350771303082508415195956736787912315377041080664796940632124404342176482355390284400885746220351502363192224100650338975030440924085946282985354034340934798982642135681198940647313039088105058884256800900850701755704501841617590599646022649438168914338864831133623040905532759457170209522151552422304924939122179236853411601267117685489
 e = 65537
