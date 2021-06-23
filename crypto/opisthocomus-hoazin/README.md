@@ -1,4 +1,4 @@
-# opishocomus-hoazin (376 solves, 300 points)
+# opisthocomus-hoazin (376 solves, 300 points)
 ## Description
 I started by running test values through the algorithm. Specifically, ``flag{`` turned out to be ``65639, 65645, 65632, 65638, 65658``. This is how the flag output starts so
 once again we can create a key using the same method as in [aptenodytes-forsteri](https://github.com/BASHing-thru-challenges/HSCTF-2021-Writeups/tree/main/crypto/aptenodytes-forsteri).
