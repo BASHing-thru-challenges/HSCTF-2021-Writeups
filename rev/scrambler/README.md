@@ -43,7 +43,7 @@ for i in range(0, len(flag), 2):
 else:
     print(''.join(flag))
 ```
-The first and last part of the script was quite easy to reverse by basic programmming skills, but the main problem I ran into was the `random.seed(int(time.time()))` which randomly shuffled the array based on the time the program executed. I tried the time given by the decompiler, but it didn't work... A hint from the challenge author told me I need to use a bit of bruteforce so I decided to check a day before and after the time given by the decompiler. To do this I create a second script to run my solve script in Threads until I found the flag. My scripts are below.
+The first and last part of the script was quite easy to reverse by basic programmming skills, but the main problem I ran into was the `random.seed(int(time.time()))` which randomly shuffled the array based on the time the program executed. I tried the time given by the decompiler, but it didn't work... A hint from the challenge author told me I need to use a bit of bruteforce so I decided to check a day before and after the time given by the decompiler. The fact that it uses int to do time makes it possible. To do this I create a second script to run my solve script in Threads until I found the flag. My scripts are below.
 
 **Solve Script**
 ```python3
