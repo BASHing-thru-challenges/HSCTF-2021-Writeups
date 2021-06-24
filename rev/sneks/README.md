@@ -1,7 +1,7 @@
-# scrambler (100 solves, 461 points)
+# sneks (212 solves, 403 points)
 
 ## Description:
-I wrote a program to print the flag, but the output is all scrambled!
+[https://www.youtube.com/watch?v=0arsPXEaIUY](https://www.youtube.com/watch?v=0arsPXEaIUY)
 
 [sneks.pyc](sneks.pyc)
 
