@@ -10,7 +10,7 @@ In this challenge instead of the secret sheet being on the same Google Sheet, it
 
 However, the entire sheet is imported and then filtered on the google Sheet we have access to. So we could intercept the request to get the entire secret sheet. I will use BurpSuite to do this.
 
-Looking through the requests in the HTTP reuqest history I saw this one which looked suspicious(the externalDataBatchRequest confirmed this)
+Looking through the requests in the HTTP request history I saw this one which looked suspicious(the externalDataBatchRequest confirmed this)
 
 ```
 POST /spreadsheets/d/1NX9nUMrpaxGqChQ7ROzITDtlxaz5McSsN5BMs-o5k-M/externaldata/fetchData?id=1NX9nUMrpaxGqChQ7ROzITDtlxaz5McSsN5BMs-o5k-M&sid=166fbbcbfe3b9199&vc=0&c=0&w=0&flr=0&smv=97&includes_info_params=true HTTP/2
